@@ -1,0 +1,114 @@
+	/* CSS Document */ 
+	*{
+		margin:0;
+		padding:0;
+		}
+	body{
+		
+		}
+	.section{
+		position:relative;
+		background-color:#fff;
+		overflow:hidden;
+		text-align:center;
+		}
+	.section1{
+		background-color:#e5dcd8;
+		background-size:cover;
+	}
+	.section1 img{
+		height:100px;
+		width:1300px;
+		}
+	.section1 video{
+		FullScreen="true";
+		}
+	.section1 h1{
+		color:#51c332;
+		font-weight:normal;
+		font-size:30px;
+		opacity:0.8;
+		}
+	.section1 p{
+		margin:5% auto 0;
+		color:#fff;
+		font-size:18px;
+		width:60%;
+		opacity:0.6;
+		margin-top:800px;
+		}
+	.section1 a{
+		display:block;
+		margin:5% auto 0;
+		color:#ff9000;
+		font-size:18px;
+		opacity:0.9;
+		}
+	.section2{
+		background-color:#dae8ed;
+		background-size:100%;
+		}
+	.section2 h1{
+		margin:20px auto;
+		color:#333;
+		font-weight:normal;
+		font-size:80px;
+		}
+	.section2 a{
+		display:block;
+		margin:20px auto 0;
+		color:#08c;
+		font-size:18px;
+		}
+	.section2 video{
+		height:400px;
+		width:800px;
+		float:center;
+		}
+
+	.section3{
+		background-color:#d1bfb3;
+		position:relative;
+		}
+	.section3 h1{
+		margin:20x auto;
+		color:#333;
+		font-weight:normal;
+		font-size:40px;
+		width:60%;
+		margin-left:-1500px;
+		}
+	.section3 p{
+		margin:20px auto 0;
+		color:#333;
+		font-size:18px;
+		width:60%;
+		margin-left:1500px;
+		}
+	.section3 a{
+		display:block;
+		margin:20px auto 0;
+		color:#08c;
+		font-size:18px;
+		}
+	.section3 video{
+		height:600px;
+		width:800px;
+		float:left;
+		clear:right;
+		}
+	.section3 MARQUEE{
+		float:right;
+		}
+	.section4{
+		background-color:#edeeef;
+		}
+	.section4 h1{
+		margin:20 px auto;
+		color:#0F0;
+		font-weight:normal;
+		font-size:40px;
+		}
+	.section4 table{
+		float:center;
+		}

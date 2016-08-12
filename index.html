@@ -1,0 +1,134 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>颗粒性中药的介绍</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.7/jquery.fullPage.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+    var video1=document.getElementById("videoPlay1");
+
+    video1.onclick=function(){
+    if(video1.paused){
+        video1.play();
+    }else{
+        video1.pause();
+    }
+	var video2=document.getElementById("videoPlay2");
+
+    video2.onclick=function(){
+    if(video2.paused){
+        video2.play();
+    }else{
+        video2.pause();
+    }
+	var video3=document.getElementById("videoPlay3");
+
+    video3.onclick=function(){
+    if(video3.paused){
+        video3.play();
+    }else{
+        video3.pause();
+    }
+    </style>
+    </head>
+    <body>
+    <div id="fullpage">
+    
+    
+    <div class="section section1">
+    <img src="zyybiaotia.png"/>
+    <video id="videoPlay1" src="use2.mp4" controls="controls" loop="loop">
+    </video>
+    </div>
+    
+    
+    <div class="section section2">
+    <MARQUEE direction=up  scrollAmount=1 scrollDelay=15  onmouseover=“this.stop()” onmouseout=“this.start()” width=500 height="500px">
+巴拉拉小魔仙 巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙巴拉拉小魔仙
+巴拉拉小魔仙</MARQUEE>
+	<video id="videoPlay2" src="use1.mp4" controls="controls"loop="loop"> 
+    </video>
+    </div>
+    
+    
+    <div class="section section3">
+    <video id="videoPlay3" src="zyy.mp4" controls="controls" loop="loop">
+    </video>
+    <MARQUEE direction=down scrollAmount=1 onmouseover=“this.stop()” onmouseout=“this.start()” width=500 height="500px">
+	古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神古娜拉黑暗之神 </MARQUEE>
+    </div>
+    
+    
+    <div class="section section4">
+    <h1>喜欢我们就来关注我们吧</h1>
+    <table width="1600"cellspacing="100">
+    <td>
+    <tr><video src="" width="300px" height="300"/></tr>
+    </td>
+    <td>
+    <tr><img src="zyylogo kong di.jpg" width="300px" height="300"/></tr>
+    </td>
+    <td>
+    <tr><img src="erweima.png" width="300px" height="300"/></tr>
+    </td>
+    </table>
+    </div>
+    
+    
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.7/jquery.fullPage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/move.js/0.4.0/move.js"></script>
+	<script>
+        $(function(){
+            $('#fullpage').fullpage(
+            {
+                //是否居中
+                verticalCentered:false,
+                //
+                anchors:['page1','page2','page3','page4'],
+                //是否有导航
+                navigation:true,
+                //loopBottom:"false",最后一页是否自动跳转到第一页
+				afterLoad:function(link,index){
+					switch(index){
+						case 1:
+						videoPlay1.play();
+						break;
+						case 2:
+						videoPlay2.play();
+						break;
+						case 3:
+						videoPlay3.play();
+						break;
+						case 4:
+						
+						break;
+						
+						}
+					},
+					onLeave:function(link,index){
+					switch(index){
+						case 1:
+						videoPlay1.pause();
+						break;
+						case 2:
+						videoPlay2.pause();
+						break;
+						case 3:
+						videoPlay3.pause();
+						break;
+						case 4:
+						
+						break;
+						
+						}
+					}
+			}
+            );
+            });
+            </script>
+    </body>
+    </html>
